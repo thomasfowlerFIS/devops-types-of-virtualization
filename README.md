@@ -81,7 +81,10 @@ server.
 ## **Networks and Network Devices**
 
 Communication between virtual machines, etc. can also be
-virtualized. 
+virtualized.
+
+Communication between virtual machines, etc. can also be
+virtualized.
 
 --------------------------------------------
 
