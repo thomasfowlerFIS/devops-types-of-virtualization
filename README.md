@@ -4,7 +4,7 @@ Course: DevOps
 
 Mod: Week 1
 
-Topic: Virtualization
+Topic: Types of Virtualization
 
 Amount of time: 1.5 hours
 
@@ -22,7 +22,9 @@ virtualization type.
 
 --------------------------------------------
 
-## **Server**
+## **Virtualization Types**
+
+### **Server**
 
 When we discuss virtualization, typically what that means is
 the virtualization of a server. This server represents what
@@ -35,7 +37,7 @@ operating system.
 
 --------------------------------------------
 
-## **Client & Desktop**
+### **Client & Desktop**
 
 Client and desktop virtulization is the virtualization of a
 guest operating system for the purposes of providing an end-user
@@ -58,7 +60,7 @@ necessity of network connectivity for virtualized environments.
 
 --------------------------------------------
 
-## **Services & Applications**
+### **Services & Applications**
 
 In addition to physical servers and workstations, services and
 applications are also virtualized. With applications, the
@@ -78,16 +80,24 @@ server.
 
 --------------------------------------------
 
-## **Networks and Network Devices**
+### **Networks and Network Devices**
 
-Communication between virtual machines, etc. can also be
-virtualized.
-
-Communication between virtual machines, etc. can also be
-virtualized.
+Networks between virtual machines, etc. can also be
+virtualized. Multiple subents can be created on a physical
+network through combined networking devices (e.g. routers,
+switches, etc.) This practice can lead to independent channels
+of bandwidth that can later be assigned to virtual devices
+on the virtual network. Additional benefits to this include
+increased network speed and more efficient usage of bandwidth,
+network reliability, and better monitoring and security.
 
 --------------------------------------------
 
-## **Storage**
+### **Storage**
 
---------------------------------------------
+Storage can be virtualized by consolidating multiple physical
+storage devices to appear as a single storage device. Benefits
+include increased performance and speed, load balancing and
+reduced costs. Storage virtualization also helps with disaster
+recovery planning, as virtual storage data can be duplicated
+and quickly transferred to another location, reducing downtime.
